@@ -1,0 +1,9 @@
+{
+  "server": true,
+  "bind_addr": "172.21.0.4",
+  "bootstrap_expect": 3,
+  "data_dir": "/tmp",
+  "retry_join": ["172.21.0.2", "172.21.0.3"],
+  "node_name": "server03",
+  "encrypt": "xvDSw2ChyHKiCswRCE200xiJfzJfaqduY/4C+q7FOAs="
+}

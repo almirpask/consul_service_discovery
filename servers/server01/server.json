@@ -1,0 +1,13 @@
+{
+  "server": true,
+  "bind_addr": "172.21.0.2",
+  "bootstrap_expect": 3,
+  "data_dir": "/tmp",
+  "retry_join": ["172.21.0.3", "172.21.0.4"],
+  "node_name": "server01",
+  "encrypt": "xvDSw2ChyHKiCswRCE200xiJfzJfaqduY/4C+q7FOAs=",
+  "client_addr": "0.0.0.0",
+  "ui_config": {
+    "enabled": true
+  }
+}

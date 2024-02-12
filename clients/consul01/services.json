@@ -1,0 +1,11 @@
+{
+  "service": {
+    "id": "nginx",
+    "name": "nginx",
+    "tags": ["web"],
+    "port": 80
+  },
+  "data_dir": "/tmp",
+  "encrypt": "xvDSw2ChyHKiCswRCE200xiJfzJfaqduY/4C+q7FOAs=",
+  "retry_join": ["172.21.0.2", "172.21.0.3", "172.21.0.4"]
+} 
